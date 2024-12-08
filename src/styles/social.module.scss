@@ -1,0 +1,20 @@
+.post{
+    border-radius: 1rem;
+    background-color: rgb(194, 248, 230);
+    padding: 1rem;
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 1rem;
+    box-shadow: 0.1rem 0.1rem black;
+    width: 100%;
+    h1 {
+        margin: 0;
+        &::before{
+            content: "@";
+        }
+    }
+}
+.postbox{
+    max-width: 50rem;
+    margin-inline: auto;
+}
